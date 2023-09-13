@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tareadistribuida": {
+      "hosting": {
+        "tareaPaaS": [
+          "tareadistribuida"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tareadistribuida"
+  }
+}

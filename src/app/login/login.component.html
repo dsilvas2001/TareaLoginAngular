@@ -1,0 +1,22 @@
+<div class="center">
+    <h1>Iniciar Sesión</h1>
+    <form  [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+      <div class="inputbox">
+        <input type="text" required="required" formControlName="email">
+        <span>Email</span>
+      </div>
+      <div class="inputbox">
+        <input type="password" required="required" formControlName="password">
+        <span>Password</span>
+      </div>
+
+      <div class="inputbox" style="left: 27%;">
+        <input class="btnAccess" style="cursor: pointer;" type="submit" value="Acceder">
+      </div>
+
+      <div class="inputbox" style="
+      left: 15%;  ">
+        <input  class="btnAccess" style="width: 14rem;cursor: pointer;" routerLink="/register" type="submit" value="Crear Nueva Cuenta">
+      </div>
+    </form>
+  </div>
